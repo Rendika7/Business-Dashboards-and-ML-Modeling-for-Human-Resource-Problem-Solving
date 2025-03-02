@@ -100,7 +100,7 @@ Berikut adalah hasil inferensi yang dibuat oleh model **Gradient Boosting**:
 
 ### **Feature Importance based on Permutation Importance**
 
-![Alt Text](Feature Importance Plot.png)
+![Feature Importance Plot](https://github.com/Rendika7/Business-Dashboards-and-ML-Modeling-for-Human-Resource-Problem-Solving/blob/main/image/Feature%20Importance%20Plot.png?raw=true)
 
 Berdasarkan grafik **Pentingnya Fitur**, faktor-faktor yang paling mempengaruhi **attrition rate** karyawan adalah **DailyRate**, **OverTime**, dan **MonthlyRate**, yang masing-masing menunjukkan penurunan akurasi sebesar 0.05 dan 0.04 ketika dihapus, menandakan bahwa gaji harian, jumlah lembur, dan gaji bulanan berperan besar dalam keputusan karyawan untuk keluar dari perusahaan. Selain itu, **DistanceFromHome** dan **MonthlyIncome** juga memiliki pengaruh signifikan dengan penurunan akurasi sebesar 0.04 dan 0.03, yang mengindikasikan bahwa jarak rumah ke kantor dan pendapatan bulanan turut mempengaruhi keputusan karyawan. **JobSatisfaction** dan **JobRole** juga berkontribusi pada keputusan attrition, dengan penurunan akurasi masing-masing sebesar 0.03 dan 0.02, yang menunjukkan bahwa kepuasan kerja dan jabatan memiliki dampak penting. Sebaliknya, faktor-faktor seperti **BusinessTravel**, **WorkLifeBalance**, **YearsSinceLastPromotion**, **Education**, **Gender**, **Department**, **JobLevel**, **PerformanceRating**, **StandardHours**, **Over18**, dan **EmployeeCount** tidak memiliki pengaruh yang signifikan terhadap prediksi attrition dalam model ini, dengan penurunan akurasi yang sangat rendah atau nol.
 
