@@ -60,66 +60,45 @@ $ conda deactivate
 
 ## Business Dashboard
 
-![Header Dashboard](link/to/img/)
+![HR Analytics Dashboard Header](https://github.com/Rendika7/Business-Dashboards-and-ML-Modeling-for-Human-Resource-Problem-Solving/blob/main/image/Dashboard-1.png?raw=true)
 
 Dashboard **HR Analytics: Workforce Insights & Attrition Monitoring** dirancang untuk membantu **departemen HR** dalam memahami berbagai aspek tenaga kerja dan mengidentifikasi faktor-faktor yang mempengaruhi **attrition rate** karyawan. Dengan visualisasi interaktif yang mudah dipahami, dashboard ini memberikan wawasan mendalam mengenai **kinerja karyawan**, **tingkat kepuasan kerja**, **tingkat attrition**, dan berbagai faktor lainnya yang berkontribusi pada keputusan karyawan untuk tetap bekerja atau keluar dari perusahaan. Dashboard ini juga memungkinkan **HR** untuk memantau **attrition rate** secara real-time dengan berbagai filter seperti **gender**, **usia**, **departemen**, **job role**, **work-life balance**, dan **pendapatan bulanan**. Selain itu, terdapat metrik utama seperti jumlah **karyawan** (**1,470**), **rata-rata usia** (**36.92**), **rata-rata kepuasan kerja** (**2.73**), dan **rata-rata durasi kerja** (**7 tahun**), yang membantu HR dalam mengambil keputusan berbasis data untuk mengurangi **attrition rate** dan meningkatkan retensi karyawan.
 
-![Header Dashboard](link/to/img/)
-
-### **1. Gender vs. Attrition Rate (Chart Pertama)**  
+### **1. Gender vs. Attrition Rate (Chart Pertama)** 
+![Gender vs Attrition Rate](https://github.com/Rendika7/Business-Dashboards-and-ML-Modeling-for-Human-Resource-Problem-Solving/blob/main/image/Dashboard-2.png?raw=true) 
 **_Chart ini membandingkan attrition rate antara pria dan wanita._** Berdasarkan grafik ini, **_female_** memiliki **_attrition rate_** yang lebih tinggi (**34.69%**) dibandingkan dengan **_male_** (**38.55%**). Hal ini memberikan indikasi bahwa **_wanita_** cenderung memiliki tingkat keluar yang lebih tinggi dibandingkan dengan pria dalam perusahaan ini.
 
-![Header Dashboard](link/to/img/)
-
-### **2. Departemen vs. Attrition (Chart Kedua)**  
+### **2. Departemen vs. Attrition (Chart Kedua)** 
+![Departemen vs Attrition](https://github.com/Rendika7/Business-Dashboards-and-ML-Modeling-for-Human-Resource-Problem-Solving/blob/main/image/Dashboard-3.png?raw=true) 
 **_Chart ini menunjukkan perbandingan antara jumlah karyawan di setiap departemen dengan tingkat attrition di masing-masing departemen._** **_Research & Development_** memiliki **_attrition rate_** yang paling tinggi dibandingkan dengan **_Sales_** dan **_Human Resources_**. **_Sales_** dan **_Human Resources_** memiliki **_attrition rate_** yang lebih rendah, yang menunjukkan bahwa **_departemen Research & Development_** mungkin perlu diberi perhatian lebih dalam hal retensi karyawan.
 
-![Header Dashboard](link/to/img/)
-
-### **3. Faktor Usia terhadap Attrition (Chart Ketiga)**  
+### **3. Faktor Usia terhadap Attrition (Chart Ketiga)**
+![Faktor Usia terhadap Attrition](https://github.com/Rendika7/Business-Dashboards-and-ML-Modeling-for-Human-Resource-Problem-Solving/blob/main/image/Dashboard-4.png?raw=true) 
 **_Grafik ini membandingkan jumlah karyawan berdasarkan kelompok usia dengan attrition rate yang ada._** **_Kelompok usia 20-30 tahun_** memiliki **_attrition rate_** tertinggi (**45.26%**), menunjukkan bahwa karyawan yang lebih muda cenderung keluar lebih banyak dibandingkan kelompok usia lainnya. Sebaliknya, **_kelompok usia 51+_** memiliki **_attrition rate_** yang lebih rendah (**30.63%**), yang menunjukkan bahwa karyawan yang lebih tua lebih cenderung bertahan.
 
-![Header Dashboard](link/to/img/)
-
-### **4. Job Role vs. Attrition (Chart Keempat)**  
+### **4. Job Role vs. Attrition (Chart Keempat)** 
+![Job Role vs Attrition](https://github.com/Rendika7/Business-Dashboards-and-ML-Modeling-for-Human-Resource-Problem-Solving/blob/main/image/Dashboard-5.png?raw=true)
 **_Chart ini menunjukkan perbandingan antara jumlah karyawan di setiap job role dengan attrition rate masing-masing._** **_Sales Representative_** dan **_Sales Executive_** memiliki **_attrition rate_** yang lebih tinggi dibandingkan dengan peran lainnya. **_Laboratory Technician_** memiliki **_attrition rate_** yang rendah, yang bisa menunjukkan tingkat kepuasan kerja yang lebih baik di posisi ini. Sebaliknya, **_Research Scientist_** juga menunjukkan **_attrition rate_** yang relatif tinggi.
 
-![Header Dashboard](link/to/img/)
-
-### **5. Work-Life Balance vs. Attrition (Chart Kelima)**  
+### **5. Work-Life Balance vs. Attrition (Chart Kelima)**
+![Work-Life Balance vs Attrition](https://github.com/Rendika7/Business-Dashboards-and-ML-Modeling-for-Human-Resource-Problem-Solving/blob/main/image/Dashboard-6.png?raw=true)  
 **_Grafik ini menunjukkan hubungan antara work-life balance dan jumlah karyawan yang keluar._** **_Work-Life Balance_** yang lebih rendah (**Level 2**) menunjukkan **_jumlah karyawan keluar_** yang paling tinggi. Di sisi lain, **_Work-Life Balance Level 3_** (baik) menunjukkan penurunan dalam jumlah karyawan yang keluar, yang menunjukkan pentingnya keseimbangan kerja dan kehidupan pribadi dalam mempertahankan karyawan.
 
-![Header Dashboard](link/to/img/)
-
 ### **6. Durasi Kerja vs. Attrition (Chart Keenam)**  
+![Durasi Kerja vs Attrition](https://github.com/Rendika7/Business-Dashboards-and-ML-Modeling-for-Human-Resource-Problem-Solving/blob/main/image/Dashboard-7.png?raw=true)
 **_Grafik ini membandingkan jumlah karyawan yang bertahan berdasarkan durasi kerja (YearsAtCompany) dengan jumlah karyawan yang keluar._** **_Durasi kerja 3-5 tahun_** menunjukkan **_attrition rate_** yang cukup tinggi. Sebaliknya, karyawan yang berada di perusahaan lebih dari **_20 tahun_** menunjukkan **_attrition rate_** yang sangat rendah, yang bisa menunjukkan bahwa karyawan lama lebih bertahan.
 
-![Header Dashboard](link/to/img/)
-
-### **7. Hubungan antara Monthly Income dan Attrition (Chart Ketujuh)**  
+### **7. Hubungan antara Monthly Income dan Attrition (Chart Ketujuh)** 
+![Hubungan antara Monthly Income dan Attrition](https://github.com/Rendika7/Business-Dashboards-and-ML-Modeling-for-Human-Resource-Problem-Solving/blob/main/image/Dashboard-8.png?raw=true)
 **_Grafik ini menunjukkan rata-rata pendapatan bulanan (MonthlyIncome) dari karyawan yang keluar vs. yang bertahan._** Karyawan dengan pendapatan yang lebih tinggi (**>6,000**) lebih cenderung bertahan dalam perusahaan, sementara karyawan dengan pendapatan lebih rendah (**<5,000**) lebih cenderung keluar. Ini menunjukkan adanya hubungan antara **_gaji_** dan **_retensi karyawan_**.
 
-![Header Dashboard](link/to/img/)
-
 ### **8. Rata-rata Job Satisfaction berdasarkan Job Role (Chart Kedelapan)**  
+![Rata-rata Job Satisfaction berdasarkan Job Role](https://github.com/Rendika7/Business-Dashboards-and-ML-Modeling-for-Human-Resource-Problem-Solving/blob/main/image/Dashboard-9.png?raw=true)
 **_Grafik ini menunjukkan perbandingan rata-rata kepuasan kerja (Job Satisfaction) antara peran pekerjaan di perusahaan._** **_Laboratory Technician_** memiliki **_rata-rata kepuasan kerja_** tertinggi (2.56), yang menunjukkan tingkat kepuasan yang lebih tinggi di posisi tersebut. Peran lain seperti **_Sales Executive_** dan **_Research Scientist_** memiliki skor kepuasan yang lebih rendah, yang dapat berhubungan dengan tingginya **_attrition rate_** di posisi tersebut.
 
-![Header Dashboard](link/to/img/)
+### Hasil Akhir Dashboard
 
-### **9. Rata-rata Job Satisfaction berdasarkan Monthly Income (Chart Kesembilan)**  
-**_Grafik ini membandingkan rata-rata Job Satisfaction dengan Monthly Income._** Karyawan dengan **_gaji lebih tinggi_** memiliki skor kepuasan yang lebih baik, yang bisa menjadi indikator bahwa **_gaji berpengaruh terhadap tingkat kepuasan_** dan **_attrition rate_**.
-
-![Header Dashboard](link/to/img/)
-
-### **10. Rata-rata Job Satisfaction berdasarkan Job Role (Chart Kesepuluh)**  
-**_Grafik ini menggambarkan perbandingan antara jumlah karyawan keluar dan rata-rata kepuasan kerja di setiap peran._** **_Research Scientist_** dan **_Sales Representative_** menunjukkan **_rata-rata kepuasan kerja_** yang lebih rendah, yang bisa berkontribusi pada tingginya **_attrition rate_**.
-
-
-
-
-
-
-
+![HR Analytics Dashboard: Workforce Insights & Attrition Monitoring](https://github.com/Rendika7/Business-Dashboards-and-ML-Modeling-for-Human-Resource-Problem-Solving/blob/main/image/RENDIKA%20NURHARTANTO%20SUHARTO-dashboard.png?raw=true)
 
 ## Model Machine Learning
 
@@ -162,20 +141,60 @@ Berikut adalah hasil inferensi yang dibuat oleh model **Gradient Boosting**:
 
 Berdasarkan grafik **Pentingnya Fitur**, faktor-faktor yang paling mempengaruhi **attrition rate** karyawan adalah **DailyRate**, **OverTime**, dan **MonthlyRate**, yang masing-masing menunjukkan penurunan akurasi sebesar 0.05 dan 0.04 ketika dihapus, menandakan bahwa gaji harian, jumlah lembur, dan gaji bulanan berperan besar dalam keputusan karyawan untuk keluar dari perusahaan. Selain itu, **DistanceFromHome** dan **MonthlyIncome** juga memiliki pengaruh signifikan dengan penurunan akurasi sebesar 0.04 dan 0.03, yang mengindikasikan bahwa jarak rumah ke kantor dan pendapatan bulanan turut mempengaruhi keputusan karyawan. **JobSatisfaction** dan **JobRole** juga berkontribusi pada keputusan attrition, dengan penurunan akurasi masing-masing sebesar 0.03 dan 0.02, yang menunjukkan bahwa kepuasan kerja dan jabatan memiliki dampak penting. Sebaliknya, faktor-faktor seperti **BusinessTravel**, **WorkLifeBalance**, **YearsSinceLastPromotion**, **Education**, **Gender**, **Department**, **JobLevel**, **PerformanceRating**, **StandardHours**, **Over18**, dan **EmployeeCount** tidak memiliki pengaruh yang signifikan terhadap prediksi attrition dalam model ini, dengan penurunan akurasi yang sangat rendah atau nol.
 
-
-
-
-
-
-
-
 ## Conclusion
 
-Jelaskan konklusi dari proyek yang dikerjakan.
+Berdasarkan analisis dan implementasi model dalam proyek ini, kami dapat menyimpulkan bahwa tingkat **attrition rate** di perusahaan **Jaya Jaya Maju** sangat dipengaruhi oleh berbagai faktor, termasuk **gaji**, **lembur**, **kepuasan kerja**, dan **durasi kerja**. Hasil dari model **Gradient Boosting** menunjukkan bahwa faktor-faktor seperti **DailyRate**, **OverTime**, dan **MonthlyRate** memiliki pengaruh besar terhadap keputusan karyawan untuk keluar dari perusahaan. Oleh karena itu, perusahaan perlu fokus pada peningkatan **keseimbangan kerja-hidup** dan **gaji** untuk mengurangi **attrition rate**. Selain itu, **peningkatan kepuasan kerja** melalui kebijakan yang relevan juga penting untuk meningkatkan retensi karyawan.
 
-### Rekomendasi Action Items (Optional)
+Dengan adanya **business dashboard** yang interaktif, **departemen HR** dapat memantau data secara real-time, memungkinkan mereka untuk mengidentifikasi faktor-faktor yang mempengaruhi **attrition rate** dan mengambil tindakan lebih cepat. Proyek ini memberikan dasar yang kuat untuk perusahaan dalam mengambil keputusan berbasis data untuk mengurangi **attrition rate** dan meningkatkan **retensi karyawan**.
 
-Berikan beberapa rekomendasi action items yang harus dilakukan perusahaan guna menyelesaikan permasalahan atau mencapai target mereka.
+### Rekomendasi Action Items
 
-- action item 1
-- action item 2
+Berikut adalah beberapa **action items** spesifik yang dapat diambil oleh perusahaan untuk mengurangi **attrition rate** dan meningkatkan retensi karyawan:
+
+Berikut adalah **rekomendasi action items** yang lebih terperinci dan **actionable** untuk mengurangi **attrition rate** serta meningkatkan retensi karyawan:
+
+---
+
+#### **1. Lakukan Penyesuaian Gaji Berdasarkan Data**
+**Langkah-langkah yang harus diambil:**
+- **Analisis Gaji Saat Ini:** Lakukan **analisis perbandingan gaji** internal terhadap **benchmark industri** untuk memastikan bahwa gaji karyawan tidak tertinggal dari pasar.
+- **Segmentasi Karyawan Berdasarkan Gaji:** Pisahkan karyawan berdasarkan tingkat **pendapatan bulanan** dan identifikasi mereka yang memiliki **pendapatan lebih rendah** atau lebih dekat dengan ambang batas **attrition rate**.
+- **Evaluasi Kenaikan Gaji:** Berdasarkan analisis, tentukan **kenaikan gaji** untuk mereka yang memiliki kinerja baik namun mendapatkan gaji yang lebih rendah dibandingkan dengan pasar.
+- **Implementasikan Kenaikan Gaji Tahunan:** Buat kebijakan **kenaikan gaji tahunan** yang mempertimbangkan **inflasi** dan **kinerja individu**.
+
+#### **2. Implementasikan Program Keseimbangan Kerja-Hidup (Work-Life Balance)**
+**Langkah-langkah yang harus diambil:**
+- **Kebijakan Fleksibel:** Terapkan kebijakan **kerja dari rumah** (remote working) dan **fleksibilitas jam kerja** bagi karyawan, terutama untuk mereka yang memiliki skor rendah pada **work-life balance**.
+- **Menyediakan Fasilitas Pendukung:** Sediakan fasilitas yang mendukung keseimbangan kerja-hidup, seperti **ruang relaksasi**, **gym**, atau **program kesehatan mental** di perusahaan.
+- **Monitoring dan Feedback:** Lakukan **survei tahunan** untuk mengukur kepuasan karyawan terhadap kebijakan kerja fleksibel dan **sesuaikan kebijakan** berdasarkan feedback yang didapat.
+- **Pemberian Cuti Tambahan:** Tawarkan **cuti tambahan** atau **waktu libur untuk keluarga** kepada karyawan untuk mendukung keseimbangan kehidupan pribadi mereka.
+
+#### **3. Tingkatkan Program Pengembangan Karir**
+**Langkah-langkah yang harus diambil:**
+- **Identifikasi Karyawan Berpotensi:** Gunakan **data karyawan** untuk mengidentifikasi **talenta potensial** dan susun rencana pengembangan karir yang jelas.
+- **Program Pelatihan dan Sertifikasi:** Sediakan **program pelatihan** atau **sertifikasi profesional** yang relevan untuk mendukung karyawan dalam perkembangan karir mereka.
+- **Jalur Karir yang Jelas:** Buat jalur karir yang jelas dan pastikan karyawan memiliki **akses ke peluang promosi** berdasarkan kinerja dan pengalaman mereka.
+- **Mentoring dan Coaching:** Implementasikan **program mentoring** bagi karyawan yang menunjukkan potensi tinggi, dengan **mentorship** dari manajer atau senior.
+
+#### **4. Survei Kepuasan Kerja secara Berkala**
+**Langkah-langkah yang harus diambil:**
+- **Lakukan Survei Tahunan atau Enam Bulanan:** Rancang **survei kepuasan kerja** yang mencakup aspek seperti **kepuasan terhadap pekerjaan**, **hubungan dengan atasan**, dan **lingkungan kerja**.
+- **Analisis Hasil Survei:** Evaluasi hasil survei dan identifikasi area yang perlu diperbaiki, seperti kebijakan manajemen atau kesejahteraan karyawan.
+- **Rencana Tindak Lanjut:** Berdasarkan hasil survei, buat **rencana tindakan** untuk meningkatkan area yang mendapat skor rendah dalam survei kepuasan.
+- **Komunikasi Hasil dan Tindak Lanjut:** Sampaikan hasil survei kepada seluruh karyawan dan jelaskan langkah-langkah yang akan diambil untuk memperbaiki kondisi yang diidentifikasi.
+
+#### **5. Program Retensi Khusus untuk Karyawan Muda (20-30 Tahun)**
+**Langkah-langkah yang harus diambil:**
+- **Identifikasi Karyawan Muda dengan Potensi Attrition Tinggi:** Gunakan **data attrition** untuk mengidentifikasi karyawan berusia 20-30 tahun yang berisiko tinggi keluar dari perusahaan.
+- **Pelatihan Kepemimpinan:** Berikan **pelatihan kepemimpinan** dan **pengembangan keterampilan** khusus untuk karyawan muda agar mereka merasa dihargai dan memiliki prospek karir yang jelas.
+- **Pengembangan Karir yang Fleksibel:** Berikan kesempatan untuk berpindah peran atau bekerja di berbagai departemen untuk memperkaya pengalaman mereka.
+- **Fasilitas Dukungan untuk Karyawan Muda:** Sediakan **program kesejahteraan mental** dan dukungan **keseimbangan kerja-hidup** yang dapat menarik bagi karyawan muda.
+
+#### **6. Fokus pada Kepuasan Kerja dalam Job Role dengan Attrition Rate Tinggi**
+**Langkah-langkah yang harus diambil:**
+- **Identifikasi Posisi dengan Attrition Rate Tinggi:** Gunakan **data attrition** untuk mengidentifikasi posisi seperti **Sales Representative** dan **Research Scientist** dengan **attrition rate** yang tinggi.
+- **Wawancara Kepuasan Kerja:** Lakukan wawancara dengan karyawan di posisi ini untuk memahami masalah utama yang memengaruhi mereka.
+- **Program Penghargaan dan Pengakuan:** Implementasikan program **penghargaan dan pengakuan** untuk karyawan di posisi tersebut untuk meningkatkan **kepuasan kerja** mereka.
+- **Perbaikan Proses Kerja:** Analisis beban kerja dan sistem manajemen di posisi ini dan lakukan **perbaikan** yang dapat membantu meningkatkan pengalaman kerja mereka.
+
+Dengan langkah-langkah tersebut, perusahaan dapat lebih efektif dalam mengurangi **attrition rate** dan meningkatkan loyalitas serta produktivitas karyawan.
