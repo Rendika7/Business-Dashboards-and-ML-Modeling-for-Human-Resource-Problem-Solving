@@ -58,6 +58,24 @@ $ pip install -r requirements.txt
 $ conda deactivate
 ```
 
+Setup Dashboard Metabase:
+
+```bash
+# 1. Menarik (Pull) Gambar Docker Metabase
+$ docker pull metabase/metabase:v0.46.4
+
+# 2. Menjalankan Container Metabase
+$ docker run -p 3000:3000 --name metabase metabase/metabase
+
+# 3. Setelah Metabase berjalan, buka browser dan akses:
+http://localhost:3000
+
+# 4. Login menggunakan username dan password yang telah disediakan:
+$ Username: root@mail.com
+$ Password: root123
+```
+
+
 ## Business Dashboard
 
 ![HR Analytics Dashboard Header](https://github.com/Rendika7/Business-Dashboards-and-ML-Modeling-for-Human-Resource-Problem-Solving/blob/main/image/Dashboard-1.png?raw=true)
