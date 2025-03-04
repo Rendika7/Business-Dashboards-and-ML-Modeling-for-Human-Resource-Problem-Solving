@@ -36,7 +36,7 @@ berdasarkan permasalahn bisnis diatas ini, buatkana kau cakupan proyek
 
 Sumber data: Untuk menganalisis **attrition rate** dan faktor-faktor yang mempengaruhinya, perusahaan Jaya Jaya Maju telah menyediakan dataset yang dapat digunakan untuk membangun model prediksi dan menganalisis data terkait dengan business Dashboard. Dataset ini dapat diunduh melalui tautan berikut: [Dataset Karyawan Jaya Jaya Maju](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee)
 
-Setup environment:
+1. Setup environment:
 
 ```bash
 # 1. Clone GitHub Repository (Contoh Repo)
@@ -58,7 +58,28 @@ $ pip install -r requirements.txt
 $ conda deactivate
 ```
 
-Setup Dashboard Metabase:
+2. Cara Penggunaan Untuk Proses Prediksi:
+
+```bash
+# 1. Clone repository:
+Pastikan Anda sudah meng-clone repository ini dan memastikan bahwa file-file berikut berada dalam direktori yang sama:
+   -> `best_model_pipeline.pkl`
+   -> `prediction.py`
+   -> `inference_data.xlsx`
+   
+# 2. Persiapkan Data untuk Prediksi:
+Data yang ingin Anda prediksi harus mengikuti format yang sama seperti yang ada pada file `inference_data.xlsx`. Jika takut data anda tidak sesuai, disarankan melakukan edit Data pada `inference_data.xlsx`:
+   -> Buka file `inference_data.xlsx` dan edit secara manual menggunakan Excel. Anda dapat menambah atau menghapus data sesuai kebutuhan, seperti yang biasa Anda lakukan di Excel.
+
+# 4. Buka Terminal:
+Buka terminal pada direktori yang sama dengan tempat Anda meng-clone repository ini.
+
+# 5. Jalankan Proses Prediksi:
+Ketikkan perintah berikut pada terminal untuk menjalankan proses prediksi:
+     $ python prediction.py
+```
+
+3. Setup Dashboard Metabase:
 
 ```bash
 # 1. Menarik (Pull) Gambar Docker Metabase

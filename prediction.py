@@ -6,7 +6,7 @@ with open('best_model_pipeline.pkl', 'rb') as file_pipeline:
     best_model_pipeline = joblib.load(file_pipeline)
 
 # Membaca file CSV yang benar
-inference_data = pd.read_csv("inference_data.csv")
+inference_data = pd.read_excel("inference_data.xlsx")
 
 # Melakukan prediksi menggunakan pipeline yang telah dilatih
 hasil_prediksi = best_model_pipeline.predict(inference_data)
